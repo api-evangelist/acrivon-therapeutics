@@ -1,25 +1,64 @@
 aid: acrivon-therapeutics
+
 name: Acrivon Therapeutics
-description: 'Acrivon Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  vc-portfolio; backed by nea) and added to the network as a stub for full-pipeline profiling.'
+
+description: Acrivon Therapeutics is a clinical‑stage oncology company leveraging its proprietary Acrivon Predictive Precision Proteomics (AP3)
+  platform to develop targeted therapies. The company focuses on precision medicine, creating companion diagnostics and drug candidates such as
+  ACR‑368 (prexasertib), ACR‑2316, and ACR‑7280, aiming to improve patient outcomes across diverse tumor alterations.
+
 url: https://raw.githubusercontent.com/api-evangelist/acrivon-therapeutics/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Oncology
+- Biotechnology
+- Precision Medicine
+- Therapeutics
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- nea
+
 common:
+- type: Hosts
+  url: hosts/acrivon-therapeutics-hosts.yml
+- type: Vendors
+  url: vendors/acrivon-therapeutics-vendors.yml
+- type: TermsOfService
+  url: https://acrivon.com/terms-of-use/
+- type: DomainSecurity
+  url: security/acrivon-therapeutics-domain-security.yml
 - type: Website
   url: https://acrivon.com
+- type: PrivacyPolicy
+  url: https://acrivon.com/privacy-statement/
+
+apis:
+- name: Acrivon API
+  description: Acrivon Therapeutics does not expose a public API; no machine‑readable specification was found on its website or developer portal.
+  humanURL: https://acrivon.com
+  aid: acrivon-therapeutics:acrivon-api
+
+x-backed-by:
+- nea
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

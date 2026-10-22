@@ -1,0 +1,19 @@
+generated: '2026-10-22'
+method: probed
+source:
+  - https://acrivon.com/privacy-statement/
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://acrivon.com/privacy-statement/
+        http_status: 200
+        fetched: "true"
+        quote: "If you are a California resident, you have the right, pursuant to Section 1798.83 of the California Civil Code, to receive once a year, free of charge: (1) information identifying each third party company to whom we may have disclosed, within the past year, personal information pertaining to you for that company’s direct marketing purposes; and (2) a description of the categories of personal information disclosed to that third party company in the immediately preceding calendar year."
+    note: Provides California residents with data access rights under Shine the Light law.
+  data_retention:
+    evidence:
+      - source: https://acrivon.com/privacy-statement/
+        http_status: 200
+        fetched: "true"
+        quote: "You can request that any Personal Information stored by us be deleted at any time by contacting us at legal@acrivon.com. However, note we will not delete information that we are required to retain in order to comply with applicable laws and regulations."
+    note: Allows deletion requests but retains data required by law.

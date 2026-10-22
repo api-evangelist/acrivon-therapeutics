@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: acrivon.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 13 05:13:43 2027 GMT
+  hsts: false
+domains:
+- domain: acrivon.com
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/acrivon-therapeutics/integrations
+- https://n8n.io/integrations/acrivon-therapeutics/
+- https://composio.dev/toolkits/acrivon-therapeutics
+- https://monid.ai/tools/acrivon-therapeutics
+checked:
+- https://composio.dev/toolkits/acrivon-therapeutics
+- https://monid.ai/tools/acrivon-therapeutics
+- https://n8n.io/integrations/acrivon-therapeutics/
+- https://zapier.com/apps/acrivon-therapeutics/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
